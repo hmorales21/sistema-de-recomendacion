@@ -62,4 +62,11 @@ Una vez que toda la data es consumible por la API ya lista para consumir para lo
 Programa : **pi1_mlops_bot.py**
 <br>
 
+<hr>
+**Consideraciones finales**
+<p>
+El dataset  original se encuentra en :
 
+<p>https://drive.google.com/drive/folders/1rDKXH4yUdLJQ1SMHAXPssDFLVSCMTY1p?usp=sharing
+
+<p> los archivos de carga para el módulo etl se cargan en la carpeta MLOpsReviews, y posterior a la transformación se cargan en la carpeta **datasets_parciales** desde donde se consumen por los demás módulos
