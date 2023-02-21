@@ -1,7 +1,12 @@
 #!/usr/bin/env python
 # pylint: disable=unused-argument, wrong-import-position
-# This program is dedicated to the public domain under the CC0 license.
-#le dejo los reconocimientos al autor de la librería
+
+#   Program     :   p1_mlops_bot.py
+#   Date        :   February 20th;2023
+#   Author      :   Horacio Morales González
+#   Sinopsis    :   Create un bot de telegram para realizar la consulta de las predicciones
+##############################################################################
+
 #importo mis librerías
 import sys
 import numpy as np
