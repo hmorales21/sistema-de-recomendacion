@@ -56,8 +56,10 @@ Ya los datos están limpios, ahora es tiempo de investigar las relaciones que ha
 <p> Programa :**pi1_mlops.modelo.ipynb**</p>
 Una vez que toda la data es consumible por la API ya lista para consumir para los departamentos de Analytics y de Machine Learning, y nuestro EDA bien realizado entendiendo bien los datos a los que tenemos acceso, es hora de entrenar nuestro modelo de machine learning para armar un sistema de recomendación de películas para usuarios, donde dado un id de usuario y una película, nos diga si la recomienda o no para dicho usuario.
 
-Se ha quedado para una segunda etapa la consulta de predicciones mediante un bot de telegram, incluyo el script hasta donde voy en este momento. 
-Programa : **mi1_mlops_bot.py**
+
+**`Interfaz de consulta`**: 
+<p> Se ha quedado para una segunda etapa la consulta de predicciones mediante un bot de telegram, incluyo el script hasta donde voy en este momento. 
+Programa : **pi1_mlops_bot.py**
 <br>
 
 
