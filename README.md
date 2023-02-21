@@ -63,7 +63,8 @@ Programa : **pi1_mlops_bot.py**
 <br>
 
 <hr>
-**Consideraciones finales**
+
+**`Consideraciones finales`**
 <p>
 El dataset  original se encuentra en :
 
