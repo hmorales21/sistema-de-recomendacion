@@ -14,10 +14,10 @@ Se crean procesos desde cero, haciendo un trabajo rápido de **`Data Engineer`**
 
 <hr>
 
-## **Propuesta de trabajo**
+## **CONTENIDO**
 
 **`Transformaciones`**:  Para este MVP no necesitas perfección, ¡necesitas rapidez! ⏩ Vas a hacer estas, ***y solo estas***, transformaciones a los datos:
-<p>**pi1_mlops_etl.py**</p>
+<p> Programa :**pi1_mlops_etl.py**</p>
 
 + Generar campo **`id`**: Cada id se compondrá de la primera letra del nombre de la plataforma, seguido del show_id ya presente en los datasets (ejemplo para títulos de Amazon = **`as123`**)
 
@@ -32,7 +32,7 @@ Se crean procesos desde cero, haciendo un trabajo rápido de **`Data Engineer`**
 <br/>
 
 **`Desarrollo API`**:   Se ha creado una API usando el framework ***FastAPI***. Las consultas son las siguientes:
-<P>**main.py**</P>
+<P> Programa :**main.py**</P>
 
 + Película con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN. (la función debe llamarse get_max_duration(year, platform, duration_type))
 
@@ -48,14 +48,16 @@ Se crean procesos desde cero, haciendo un trabajo rápido de **`Data Engineer`**
 - https://deta.space/discovery/r/nhnfiqkc64xkvifv
 
 **`Análisis exploratorio de los datos`**: _(Exploratory Data Analysis-EDA)_
-<p>**pi1_mlops_eda.ipynb**</p>
+<p>Progframa : **pi1_mlops_eda.ipynb**</p>
 
 Ya los datos están limpios, ahora es tiempo de investigar las relaciones que hay entre las variables de los datasets, ver si hay outliers o anomalías (que no tienen que ser errores necesariamente :eyes: ), y ver si hay algún patrón interesante que valga la pena explorar en un análisis posterior.
 
 **`Sistema de recomendación`**: 
-<p>**pi1_mlops.modelo.ipynb**</p>
+<p> Programa :**pi1_mlops.modelo.ipynb**</p>
 Una vez que toda la data es consumible por la API ya lista para consumir para los departamentos de Analytics y de Machine Learning, y nuestro EDA bien realizado entendiendo bien los datos a los que tenemos acceso, es hora de entrenar nuestro modelo de machine learning para armar un sistema de recomendación de películas para usuarios, donde dado un id de usuario y una película, nos diga si la recomienda o no para dicho usuario.
 
+Se ha quedado para una segunda etapa la consulta de predicciones mediante un bot de telegram, incluyo el script hasta donde voy en este momento. 
+Programa : **mi1_mlops_bot.py**
 <br>
 
 
